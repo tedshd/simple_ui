@@ -12,3 +12,16 @@
     --color-warn: rgb(243, 123, 29);
     --color-success: rgb(94,185,94);
 }
+
+.style_disable {
+    background: var(--color-disable);
+}
+.style_error {
+    background: var(--color-error);
+}
+.style_warn {
+    background: var(--color-warn);
+}
+.style_success {
+    background: var(--color-success);
+}
