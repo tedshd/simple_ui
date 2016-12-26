@@ -1,0 +1,19 @@
+/**
+ *
+ * @authors Ted Shiu (ted@sitetag.us)
+ * @date    2016-12-07 17:32:45
+ */
+
+.mod_tag {
+    display: inline-block;
+    margin: 0.25rem;
+    padding: 0.5rem;
+    background: var(--color-d4);
+    border-radius: 4px;
+    transition: all .3s;
+    color: #fff;
+}
+.mod_tag:hover {
+    text-decoration: none;
+    background: var(--color-h4hover);
+}

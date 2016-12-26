@@ -1,0 +1,14 @@
+/**
+ *
+ * @authors Ted Shiu (ted@sitetag.us)
+ * @date    2016-12-07 17:30:37
+ */
+
+:root {
+    --color-d4: rgb(31,141,214);
+    --color-h4hover: rgba(31,141,214, .7);
+    --color-disable: rgb(220,220,220);
+    --color-error: rgb(221, 81, 76);
+    --color-warn: rgb(243, 123, 29);
+    --color-success: rgb(94,185,94);
+}

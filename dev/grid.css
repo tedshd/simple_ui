@@ -1,0 +1,14 @@
+/**
+ *
+ * @authors Ted Shiu (ted@sitetag.us)
+ * @date    2016-12-07 17:23:58
+ */
+
+.mod_table {
+    display: table;
+}
+
+.mod_table_cell {
+    display: table-cell;
+    vertical-align: middle;
+}

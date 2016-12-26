@@ -1,0 +1,49 @@
+/**
+ *
+ * @authors Ted Shiu (ted@sitetag.us)
+ * @date    2016-12-07 17:09:52
+ */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* clear float */
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    clear: both;
+}
+
+/* text vertical center */
+/* area must display: inline-block & vertical-align: middle */
+.vertical_middle:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+/* ellipsis text */
+/* add width */
+.ellipsis {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.hide {
+    display: none !important;
+}
+.hidden {
+    visibility: hidden;
+}
